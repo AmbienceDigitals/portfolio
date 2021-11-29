@@ -89,6 +89,15 @@ export const projectsData = [
     url: 'https://angular-ngrx-8cd48.web.app/',
     repo: 'https://github.com/AmbienceDigitals/Learning-ngrx'
   },
+  {
+    id: nanoid(),
+    img: 'hulu-app.png',
+    title: 'Hulu Web App',
+    info: 'Built with Next Js, Tailwind CSS and using TMDB API',
+    info2: 'mobile responsive with css grid combined with css flex for optimal breakpoints, image optimization and server side rendering',
+    url: 'https://hulu-web-app-5o2y23kwy-ambiencedigitals.vercel.app/',
+    repo: 'https://github.com/AmbienceDigitals/Hulu'
+  }
 ];
 
 // CONTACT DATA
