@@ -4,7 +4,7 @@ import { nanoid } from 'nanoid';
 export const headData = {
   title: 'Ayano Ezekiel | Frontend Developer', 
   lang: 'en', 
-  description: 'Welcome to Ambience Media', 
+  description: 'Welcome to Ambience Digital Solutions', 
 };
 
 // HERO DATA
@@ -18,10 +18,10 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'about.jpg',
-  paragraphOne: 'My name is Ayano Ezekiel, a frontend Engineer with a flair for creating responsive and elegant web applications and mobile oriented web solutions in the least amount of time using JavaScript frameworks and associated technologies for optimal user experience.',
+  paragraphOne: 'My name is Ayano Ezekiel, a frontend Engineer and Cloud Developer with a flair for creating responsive and elegant web applications and mobile oriented web solutions in the least amount of time using JavaScript frameworks and associated technologies and leveraging on Cloud technologies for optimal user experience.',
   paragraphTwo: 'I am a team player, goal oriented person who is passionate about learning and using programming languages to tackle real life problems',
   paragraphThree: 'I am well versed in MEAN and MERN stack technologies',
-  resume: 'https://drive.google.com/file/d/17gKPjBCz-lu9I6kGZ4_8VUJusnljkJZD/view?usp=sharing'
+  resume: 'https://www.linkedin.com/in/ezekiel-ayano/',
 };
 
 // PROJECTS DATA
@@ -75,7 +75,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'store.png',
     title: 'Redux Store',
-    info: 'built with React, redux-toolkit for state management and fakeApi for data',
+    info: 'built with React, redux-toolkit for state management and fakeApi for data, using stripe API as a payment gateway, alertify for beautifully designed success and error messages and firebase for authentication',
     info2: 'mobile responsive',
     url: 'https://react-store-e3e73.web.app/',
     repo: 'https://github.com/AmbienceDigitals/redux-store'
@@ -97,6 +97,15 @@ export const projectsData = [
     info2: 'mobile responsive with css grid combined with css flex for optimal breakpoints, image optimization and server side rendering',
     url: 'https://hulu-web-app-5o2y23kwy-ambiencedigitals.vercel.app/',
     repo: 'https://github.com/AmbienceDigitals/Hulu'
+  },
+  {
+    id: nanoid(),
+    img: 'landing.png',
+    title: 'ProNef Landing page',
+    info: 'Built with React Js, Tailwind CSS and using TMDB API',
+    info2: 'This is the landing page for an NFT Application built using React Native',
+    url: 'https://nft-showcased.netlify.app/',
+    repo: 'https://github.com/AmbienceDigitals/showcase'
   }
 ];
 
@@ -113,7 +122,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: 'https://twitter.com/ayano_ezekiel,
+      url: 'https://twitter.com/ayano_ezekiel',
     },
     {
       id: nanoid(),
