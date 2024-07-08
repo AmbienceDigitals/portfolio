@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: 'My name is Ayano Ezekiel, a frontend Engineer with a flair for creating responsive and elegant web applications and mobile oriented web solutions in the least amount of time using JavaScript frameworks and associated technologies for optimal userexperience.',
   paragraphTwo: 'I am a team player, goal oriented person who is passionate about learning and using programming languages to tackle real life problems',
   paragraphThree: 'I am well versed in MEAN and MERN stack technologies',
-  resume: 'https://www.linkedin.com/in/ezekiel-ayano/'
+  resume: 'https://drive.google.com/file/d/1pVVizqHenZvIKIK2OGNzsp4OtN9QMgQo/view'
 };
 
 // PROJECTS DATA
@@ -53,15 +53,7 @@ export const projectsData = [
     url: '#',
     repo: 'https://github.com/AmbienceDigitals/Estate'
   },
-  {
-    id: nanoid(),
-    img: 'read-app.png',
-    title: 'Shelf',
-    info: 'A pseudo book shelf built using React ',
-    info2: '',
-    url: 'https://read-app.netlify.app/',
-    repo: 'https://github.com/AmbienceDigitals/Udacity_My_Reads_App_Challenge'
-  },
+
    {
     id: nanoid(),
     img: 'netflix-clone.png',
@@ -77,7 +69,7 @@ export const projectsData = [
     title: 'Redux Store',
     info: 'built with React, redux-toolkit for state management and fakeApi for data',
     info2: 'mobile responsive',
-    url: '#',
+    url: 'https://react-store-e3e73.web.app/',
     repo: 'https://github.com/AmbienceDigitals/redux-store'
   },
    {
@@ -97,6 +89,33 @@ export const projectsData = [
     info2: 'mobile responsive with css grid combined with css flex for optimal breakpoints, image optimization and server side rendering',
     url: 'https://hulu-web-app-5o2y23kwy-ambiencedigitals.vercel.app/',
     repo: 'https://github.com/AmbienceDigitals/Hulu'
+  },
+  {
+    id: nanoid(),
+    img: 'nft-web.png',
+    title: 'NFT Web App',
+    info: 'Built a simple Nft app linked and downloadabole from a react built website',
+    info2: 'Mobile application built with React native and expo , with smooth navigation',
+    url: 'https://nft-showcased.netlify.app/',
+    repo: 'https://github.com/AmbienceDigitals/showcase'
+  },
+  {
+    id: nanoid(),
+    img: 'nft.png',
+    title: 'NFT mobile App',
+    info: 'Built a simple Nft app with Reac t native and expo , with smooth navigation',
+    info2: '',
+    url: 'https://github.com/AmbienceDigitals/nft',
+    repo: 'https://github.com/AmbienceDigitals/nft'
+  },
+  {
+    id: nanoid(),
+    img: 'uber.webp',
+    title: 'Uber App',
+    info: 'Built an uber app clone using React native and expo cli',
+    info2: 'Mobile application built with map function and smooth navigation',
+    url: 'https://github.com/AmbienceDigitals/Uber',
+    repo: 'https://github.com/AmbienceDigitals/Uber'
   }
 ];
 
